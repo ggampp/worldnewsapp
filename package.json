@@ -1,0 +1,11 @@
+{
+  "name": "app_for_world_news",
+  "version": "1.0.0",
+  "description": "App for world news",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "GAMP - Guilherme Pimentel",
+  "license": "ISC"
+}
