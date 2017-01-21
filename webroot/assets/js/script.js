@@ -1,23 +1,6 @@
 $(function () {
-
-	// Globals variables
-
-		// 	An array containing objects with information about the products.
 	var products = [],
-
-		// Our filters object will contain an array of values for each filter
-
-		// Example:
-		// filters = {
-		// 		"manufacturer" = ["Apple","Sony"],
-		//		"storage" = [16]
-		//	}
 		filters = {};
-
-
-	//	Event handlers for frontend navigation
-
-	//	Checkbox filtering
 
 	var checkboxes = $('.all-products input[type=checkbox]');
 
@@ -94,9 +77,6 @@ $(function () {
 	});
 
 
-	// These are called on page load
-
-	// Get data about our products from products.json.
 	$.getJSON( "products.json", function( data ) {
 
 		// Write the data into our global variable.
