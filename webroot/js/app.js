@@ -1,10 +1,10 @@
 $(function () {
 
   $.getJSON( "/news", function( data ) {
-      var theTemplateScript = $("#products-template").html();
+      var theTemplateScript = $("#inf-card-template").html();
       var theTemplate = Handlebars.compile(theTemplateScript);
       var theCompiledHtml = theTemplate(data);
-      $('.products-list').append(theCompiledHtml);    
+      $('#cards').append(theCompiledHtml);    
   });
 
 
