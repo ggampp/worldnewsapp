@@ -11,24 +11,7 @@
 
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
         <link rel="stylesheet" href="./css/bootstrap.css">
-        <link rel="stylesheet" href="./css/cards.css">
         <link rel="stylesheet" href="./css/inf-cards.css">
-        <script id="card-template" type="x-handlebars-template">
-            {{#each articles}}
-            <div class="col-md-4">
-                <div class="card">
-                 <div class="card-image">
-                    <img class="img-responsive" src="{{urlToImage}}">
-                    <span class="card-title">{{title}}</span>
-                 </div>
-                
-                 <div class="card-content">
-                     <p>{{description}}</p>
-                 </div>
-                </div>
-            </div>
-            {{/each}}
-        </script>
         <script id="inf-card-template" type="x-handlebars-template">
             {{#each articles}}
         	<div class="[ col-sm-6 col-md-4 ]">
